@@ -1,0 +1,11 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    font-family: 'Poppins', sans-serif; /* Fuente atractiva */
+    font-size: 1.1rem;                  /* Tamaño un poco más grande */
+    line-height: 1.6;                    /* Espaciado entre líneas para legibilidad */
+    color: #1e1e2f;                      /* Color elegante (azul oscuro) */
+  }

@@ -1,0 +1,27 @@
+<div class="m-auto my-5">
+  <div class="container m-auto align-item-center">
+    <div class="text-center p-5">
+      <h1>MIS PROYECTOS</h1>
+    </div>
+    <div class="row justify-content-md-center">
+      <div *ngFor="let proyecto of proyectos" class="col-12 col-md-4 p-2">
+        <mat-card class="example-card h-100">
+          <mat-card-header style="display: inline-flex;height:120px;">
+            <div mat-card-avatar class="{{proyecto.imagenCard}}"></div>
+            <mat-card-title>{{ proyecto.titulo }}</mat-card-title>
+            <mat-card-subtitle>{{ proyecto.subtitulo }}</mat-card-subtitle>
+          </mat-card-header>
+          <img mat-card-image [src]="proyecto.imagen" alt="Imagen del proyecto">
+          <mat-card-content style="display: inline-block;margin: auto;">
+            <p>FECHA: {{ proyecto.fecha }}</p>
+            <p [innerHTML]="proyecto.descripcion"></p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-button (click)="abrirLink(proyecto.linkWeb)" [disabled]="proyecto.disabled">IR A LA WEB</button>
+            <button mat-button (click)="abrirLink(proyecto.linkGithub)" [disabled]="proyecto.disabled">IR A GITHUB</button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</div>
