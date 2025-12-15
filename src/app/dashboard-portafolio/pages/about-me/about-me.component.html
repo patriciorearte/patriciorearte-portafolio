@@ -1,120 +1,36 @@
+<div class="sobre-mi-container">
+  <!-- Columna de texto -->
+  <div class="sobre-mi-text">
+    <h1 class="titulo">Sobre mí</h1>
 
-  <div class="my-5">
-    <div class="container-sm  container-md container-lg">
-      <div class="m-auto">
-        <div class="text-center p-5">
-          <h1>SOBRE MI </h1>
-        </div>
-        <div class="text-center mb-3">
-          <img src="../../../../assets/imagenes/foto_CV_Patricio.jpg" class="img-fluid" style="border-radius: 50%;width: 15rem;height: 15rem;border: solid #1e1e2f 1rem;">
-        </div>
-        <div class="text-center mb-3">
-              <a href="../../../../assets/resume/Patricio_Rearte_Act.pdf" class="text-center" download>
-                <i class="fa-solid fa-file-arrow-down fs-3">
-                  
-                </i> Descarga mi CV
-              </a>
-        </div>
-      </div>
-      <div class="m-auto">
-        <div class="text-break">
-          Soy Patricio Rearte, estudiante universitario próximo a graduarme en 2025 de la Tecnicatura en Informática en la Universidad Nacional de Hurlingham.
-Soy una persona curiosa y en constante aprendizaje, siempre buscando mejorar mis habilidades y explorar nuevas tecnologías. En mi tiempo libre realizo cursos —tanto pagos como gratuitos— en diversas plataformas para seguir creciendo como desarrollador.
+    <p>
+      Soy Patricio Rearte, <strong>Graduado</strong> en 2025 de la
+      <strong>Tecnicatura en Informática</strong> en la Universidad Nacional de Hurlingham.
+    </p>
 
-Durante el desarrollo del proyecto "Sistema de Gestión de Viajes", adquirí experiencia práctica trabajando en equipo con metodologías ágiles (Scrum), aprendiendo a coordinar tareas, gestionar versiones con Git, y desplegar aplicaciones con Docker, Render y Vite.
-También profundicé mis conocimientos en NestJS, React, MongoDB y Material UI, fortaleciendo mi perfil Full Stack Junior.
+    <p>
+      Soy una persona curiosa y en constante aprendizaje, siempre buscando mejorar mis habilidades y explorar nuevas tecnologías.
+      En mi tiempo libre realizo cursos —tanto pagos como gratuitos— en diversas plataformas para seguir creciendo como desarrollador.
+    </p>
 
-Tengo experiencia en el uso de herramientas como Visual Studio Code, Postman, GitHub, y SQL Server, entre otras. Me motiva seguir aprendiendo y aplicar mis conocimientos para crear soluciones eficientes y escalables.
-        </div>
-        <div class="text-break">
-          No tengo inconvenientes en adaptarme a otras herramientas de trabajo, siempre lo tomo como un desafio que siempre
-          estoy dispuesta a afrontar.
-          <p>
-            Gracias por llegar hasta aquí, espero verte de nuevo.
-          </p>
-        </div>
-      </div>
-      <div class="m-auto">
-        <div class="row">
-          <div class="col-12">
-            <div class="text-center">
-              <h2>CERTIFICACIONES</h2>
-            </div>
-          </div>
-          <div class="col-12">
-            <div class="d-flex">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col">Tecnología</th>
-                    <th scope="col">Nombre Curso</th>
-                    <th scope="col">Estado</th>
-                    <th scope="col">Link Certificado</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row"><i class="fa-brands fa-angular"></i></th>
-                    <td>Angular - CoderHouse</td>
-                    <td>Finalizado</td>
-                    <td>
-                      <button mat-button (click)="openCertificado('https://www.coderhouse.com/ar/certificados/6580ce53d8761c4a1a17b052?lang=')">Certificado</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row"><i class="fa-brands fa-js"></i></th>
-                    <td>JavasScript - CoderHouse</td>
-                    <td>En curso Abr-2024 a Jul-2024</td>
-                    <td>
-                      <button mat-button disabled>Pendiente</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row"><i class="fa-solid fa-graduation-cap"></i></th>
-                    <td>Scrum Avanzado - Linkendin Learning</td>
-                    <td>Finalizado</td>
-                    <td><button mat-button (click)="openCertificado('https://www.linkedin.com/learning/certificates/f688f19ab41c048428ef7a9e61c64a71e2a7c64c45d063a05225d813db3729c7?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B3sGwq0WFSPWJYrzHN%2Fj4%2Bg%3D%3D')">Certificado</button></td>
-                  </tr>
-                  <tr>
-                    <th scope="row"><i class="fa-brands fa-figma"></i></th>
-                    <td>Taller Firma - Desafio - Latam</td>
-                    <td>Finalizado</td>
-                    <td>
-                      <button mat-button (click)="openCertificado('https://cursos.desafiolatam.com/certificates/zocozigkde')">Certificado</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row"><i class="fa-solid fa-graduation-cap"></i></th>
-                    <td>Introducción al análisis de datos con Python</td>
-                    <td>En curso - autodidacta</td>
-                    <td>
-                      <button mat-button disabled>Pendiente</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row"><i class="fa-solid fa-graduation-cap"></i></th>
-                    <td>Programación con Python para el análisis de datos</td>
-                    <td>En curso - autodidacta</td>
-                    <td>
-                      <button mat-button disabled>Pendiente</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row"><i class="fa-solid fa-graduation-cap"></i></th>
-                    <td>Aprende Power BI desde cero</td>
-                    <td>Finalizado</td>
-                    <td>
-                      <button mat-button (click)="openCertificado('https://cursos.desafiolatam.com/certificates/jkhmrq5i4f')">Certificado</button>
-                    </td>
-                  </tr>
-                  
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
+    <p>
+      Durante el desarrollo del proyecto <strong>"Sistema de Gestión de Viajes"</strong>, adquirí experiencia práctica trabajando
+      en equipo con metodologías ágiles (Scrum), aprendiendo a coordinar tareas, gestionar versiones con Git, y desplegar
+      aplicaciones con Docker, Render y Vite.
+    </p>
 
-         
-         
-      </div>
-  </div>  
+    <p>
+      También profundicé mis conocimientos en <strong>NestJS, React, MongoDB y Material UI</strong>, fortaleciendo mi perfil
+      Full Stack Junior.
+    </p>
+  </div>
+
+  <!-- Columna imagen + descargar CV -->
+  <div class="sobre-mi-img">
+    <img src="assets/imagenes/foto_CV_Patricio.jpg" alt="Foto de perfil">
+
+    <a href="assets/CV-Patricio-Rearte.pdf" class="btn-cv" download>
+      <i class="fa-solid fa-file-arrow-down"></i> Descargar CV
+    </a>
+  </div>
+</div>

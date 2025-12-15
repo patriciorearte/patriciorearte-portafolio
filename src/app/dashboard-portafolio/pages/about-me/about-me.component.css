@@ -1,11 +1,70 @@
-a{
-    text-decoration: none;
-    color: black;
-}
-
-p {
-    font-family: 'Poppins', sans-serif; /* Fuente atractiva */
-    font-size: 1.1rem;                  /* Tamaño un poco más grande */
-    line-height: 1.6;                    /* Espaciado entre líneas para legibilidad */
-    color: #1e1e2f;                      /* Color elegante (azul oscuro) */
+/* GRID de dos columnas en desktop */
+.sobre-mi-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 60px 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* texto más grande, imagen más chica */
+    align-items: center;
+    column-gap: 40px;
+    margin-top: 90px;
   }
+  
+  /* Texto */
+  .sobre-mi-text {
+    text-align: left;
+    font-size: 1.15rem;
+    line-height: 1.8rem;
+    font-family: "Inter", sans-serif;
+    color: #333;
+  }
+  
+  .titulo {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  
+  /* Imagen */
+  .sobre-mi-img {
+    text-align: center;
+  }
+  
+  .sobre-mi-img img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #1e1e2f;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    margin-bottom: 25px;
+  }
+  
+  /* Botón */
+  .btn-cv {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+  
+  .btn-cv:hover {
+    background-color: #333;
+  }
+  
+  /* Responsive para celulares */
+  @media (max-width: 768px) {
+    .sobre-mi-container {
+      grid-template-columns: 1fr; /* pasa a 1 columna */
+      text-align: center;
+    }
+  
+    .sobre-mi-text {
+      text-align: center;
+    }
+  }
+  
