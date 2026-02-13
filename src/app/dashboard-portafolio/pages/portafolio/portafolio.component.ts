@@ -27,7 +27,7 @@ export class PortafolioComponent {
     {
       titulo: 'Aplicación de Gestión de Tareas',
       subtitulo: 'React + Node.js + Express + MariaDB + JWT',
-      imagen: 'assets/imagenes/calculadora-evelina.png',
+      imagen: 'assets/imagenes/Tares.PNG',
       fecha: '2025',
       descripcion: 'Aplicación full stack para gestión de tareas con autenticación JWT, CRUD completo y base de datos MariaDB. Frontend desarrollado en React con Vite y backend en Node.js. Proyecto enfocado en arquitectura cliente-servidor y manejo de estado.',
       linkWeb: 'https://tareaspatricio.netlify.app/',
