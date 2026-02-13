@@ -11,30 +11,29 @@ export class PortafolioComponent {
   proyectos: Proyecto[] = [
     {
       titulo: 'Convertidor de divisas',
-      subtitulo: 'Angular v.16 - Curso CoderHouse',
-      imagen: 'assets/imagenes/homeCursoAngular.png',
-      fecha: 'NOVIEMBRE 2023',
-      descripcion: `Api Json-Server publicado en render: 
-                    <a href="https://api-json-server-fq9l.onrender.com/" target="_blank">link_api</a>
-                    <br>
-                    Usuario de prueba: email:eve@gmail.com contraseña: 1234
-                    <br>
-                    Implementación hosting gratuito Netlify`,
-      linkWeb: 'https://proyecto-curso-angular-coderhouse.netlify.app',
-      linkGithub: 'https://github.com/evelinanunez/1PFNunez',
+      subtitulo: 'React - Curso CoderHouse',
+      imagen: 'assets/imagenes/Conversor.PNG',
+      fecha: 'DICIEMBRE 2025',
+      descripcion: `Aplicación desarrollada en React para la conversión de divisas.
+                Permite consultar cotizaciones y realizar conversiones dinámicas entre monedas.
+                Consumo de API Json-Server desplegada en Render.
+                <br>
+                Deploy realizado en Netlify.`,
+      linkWeb: 'https://warm-pastelito-6e7a1a.netlify.app/',
+      linkGithub: 'https://github.com/patriciorearte/Conversion-divisas',
       disabled: false,
-      imagenCard:'angular-image'
+      imagenCard:'react-image'
     },  
     {
-      titulo: 'Calculadora',
-      subtitulo: 'Hecha con Javascript vainilla - css puro',
+      titulo: 'Aplicación de Gestión de Tareas',
+      subtitulo: 'React + Node.js + Express + MariaDB + JWT',
       imagen: 'assets/imagenes/calculadora-evelina.png',
-      fecha: 'FEBRERO 2024',
-      descripcion: 'Se aplica conocimientos basicos de Javascript. Implementación hosting gratuito Netlify',
-      linkWeb: 'https://calculadora-evelina.netlify.app',
-      linkGithub: 'https://github.com/evelinanunez/calculadora-evelina/tree/master',
+      fecha: '2025',
+      descripcion: 'Aplicación full stack para gestión de tareas con autenticación JWT, CRUD completo y base de datos MariaDB. Frontend desarrollado en React con Vite y backend en Node.js. Proyecto enfocado en arquitectura cliente-servidor y manejo de estado.',
+      linkWeb: 'https://tareaspatricio.netlify.app/',
+      linkGithub: 'https://github.com/patriciorearte/Proyecto_Tareas',
       disabled: false,
-      imagenCard:'javascript-image'
+      imagenCard:'react-image'
     }
   ];
 
